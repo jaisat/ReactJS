@@ -8,15 +8,15 @@ import Counter from './components/Counter';
 function App() {
   return (
     <div className="App">
-      <Counter/>
+      {/* <Counter/>
       {/* <Message /> */}
       {/* <Greet name="Satyam">
         <p>This is IT Student</p>
       </Greet>
       <Greet name="Clark">
         <button>Submit</button>
-      </Greet>
-      <Welcome /> */}
+      </Greet> */}
+      <Welcome name="Satyam" heroname="Batman"/> 
     </div>
   );
 }
