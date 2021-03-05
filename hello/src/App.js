@@ -3,11 +3,13 @@ import './App.css';
 import Greet from './components/Greet';
 import Welcome from './components/welcome';
 import Message from './components/message';
+import Counter from './components/Counter';
 
 function App() {
   return (
     <div className="App">
-      <Message />
+      <Counter/>
+      {/* <Message /> */}
       {/* <Greet name="Satyam">
         <p>This is IT Student</p>
       </Greet>
