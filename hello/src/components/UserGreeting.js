@@ -5,7 +5,7 @@ class UserGreeting extends Component {
         super(props)
     
         this.state = {
-             isLoggedin: false
+             isLoggedin: true
         }
     }
     
